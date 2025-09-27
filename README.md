@@ -35,7 +35,7 @@ We are committed to consistent learning.
 ---
 
 ## ▶️ YouTube Playlist
-Start learning here: [Complete Hindi Playlist](https://www.youtube.com/)  
+Start learning here: [Complete Hindi Playlist](https://www.youtube.com/watch?v=tVzUXW6siu0&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w)  
 
 ---
 
