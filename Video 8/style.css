@@ -1,0 +1,29 @@
+p {
+    color: rgb(75, 75, 224);
+    font-size: 16px;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+div {
+    color: green;
+    font-size: 20px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+span {
+    color: blue;
+    font-size: 14px;
+    border: 0px solid gray;
+    margin: 5px;
+    padding: 5px;        
+}
+strong {
+    color: orange;
+    font-weight: bold;
+}a {
+    color: rgb(209, 28, 28);
+    text-decoration: none;
+}
