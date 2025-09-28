@@ -1,0 +1,28 @@
+div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+div.highlight {
+    background-color: #f0f8ff;
+    border-color: #1e90ff;
+}
+div.error {
+    background-color: #ffe6e6;
+    border-color: #ff4d4d;
+}
+#main-content {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+#footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}   
+#header {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
