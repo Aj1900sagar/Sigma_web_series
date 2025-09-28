@@ -1,0 +1,50 @@
+Most useful block elements (and why)
+
+.div — generic container for grouping and layout (use with classes).
+
+*p — paragraph, for blocks of text.
+
+*h1…h6 — headings, for document structure and SEO.
+
+*section — thematic grouping of content (semantic).
+
+*article — self-contained content (blog post, news item).
+
+*nav — navigation links container.
+
+*header, footer — page/section header and footer.
+
+*aside — sidebar or tangential content.
+
+*form — grouping interactive controls and submission.
+
+*ul / ol / li — lists.
+
+*table, thead, tbody, tr, td — tabular data.
+
+When to use: structure pages, group components, layout blocks and semantic sections.
+
+Most useful inline elements (and why)
+
+*a — links (essential).
+
+*span — generic inline wrapper (useful for styling a few words).
+
+*img — images (inline by default, but behaves like replaced element).
+
+*strong, b — important/strong text (use strong for semantics).
+
+*em, i — emphasis (use em for semantics).
+
+*label — label for form controls (improves accessibility).
+
+*input, button, select, textarea — form controls (inline by default).
+
+*small, sup, sub — fine typographic bits.
+
+*code, kbd, samp — inline code and keyboard text.
+Quick reference (cheat-sheet)
+<!-- summary -->
+Use block: div, p, h1-h6, section, article, nav, header, footer, form, ul/ol/li
+
+Use inline: a, span, img, strong/em, label, input, button, code
