@@ -1,4 +1,4 @@
-Most useful block elements (and why)
+######_Most useful block elements (and why)
 
 .div — generic container for grouping and layout (use with classes).
 
@@ -24,7 +24,7 @@ Most useful block elements (and why)
 
 When to use: structure pages, group components, layout blocks and semantic sections.
 
-Most useful inline elements (and why)
+######_Most useful inline elements (and why)
 
 *a — links (essential).
 
@@ -46,5 +46,6 @@ Most useful inline elements (and why)
 Quick reference (cheat-sheet)
 <!-- summary -->
 Use block: div, p, h1-h6, section, article, nav, header, footer, form, ul/ol/li
+
 
 Use inline: a, span, img, strong/em, label, input, button, code
