@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video ,Audio & Media</title>
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video, Audio & Media</title>
+    <style>
+        .intro-text {
+            max-width: 700px;
+            margin: 30px auto 0 auto;
+            padding: 18px 28px;
+            background: #f3f0ff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(58,12,163,0.06);
+            font-size: 1.15rem;
+            color: #3a0ca3;
+            text-align: center;
+            line-height: 1.6;
+        }
+        body {
+            background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #22223b;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            color: #3a0ca3;
+        }
+        .media-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px auto;
+            max-width: 1200px;
+        }
+        .media-box {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(58,12,163,0.08);
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.2s;
+        }
+        .media-box:hover {
+            transform: translateY(-6px) scale(1.03);
+            box-shadow: 0 8px 24px rgba(58,12,163,0.15);
+        }
+        video, audio, iframe, svg {
+            margin-top: 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(58,12,163,0.07);
+        }
+        video, iframe {
+            max-width: 100%;
+        }
+        audio {
+            width: 90%;
+        }
+        .svg-title {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            color: #7209b7;
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="intro-text">
+        <span style="font-size:2rem;vertical-align:middle; margin-right:10px;">🎬🎵🌐🖼️</span>
+        Welcome! This website lets you easily explore and interact with different types of media, including videos, audio, YouTube embeds, and SVG graphics. Use the controls below each media type to play, pause, or view content. Enjoy discovering how HTML handles multimedia!
+    </div>
+    <h1>Video, Audio & Media</h1>
+    <div class="media-container">
+        <div class="media-box">
+            <video width="320" height="240" poster="https://images.squarespace-cdn.com/content/v1/52e9aad0e4b0b3b2a58c484a/1727715225161-LEII23QKSO4MRKJJSVIL/YouTube+Thumbnail+Size.png" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="media-box">
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="media-box">
+            <iframe width="320" height="180" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=2CdAezXFAW4ZtAeS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="media-box">
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+            </svg>
+            <div class="svg-title">Sample SVG Graphic</div>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fhoDRB53DwY?si=_DKijvctrdDOh0YQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
