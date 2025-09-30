@@ -55,7 +55,7 @@ You can clone or fork it to follow along with the tutorials.
 
 ## 🤝 Contributors
 - [@Aj1900sagar](https://github.com/Aj1900sagar)  
-- [@sagar](linkedin.com/in/sagar-vishwakarma1900)  
+- [@sagar](https://www.linkedin.com/in/sagar-vishwakarma1900/)  
 
 ---
 
