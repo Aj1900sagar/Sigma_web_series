@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        /* Element Selector */
+        div {
+            background-color: rgb(190, 188, 59) ;
+            color: red;
+            font-size: 20px;
+        }
+        /* Class Selector */
+        .special {
+            background-color: rgb(230, 171, 174);
+            color: blue;
+            font-size: 30px;
+        }
+        /* ID Selector */
+        #unique {
+            background-color: rgb(59, 188, 190);
+            color: green;
+            font-size: 25px;
+        }
+        /* Child Selector */
+        div > p {
+            background-color: rgb(233, 229, 31);
+            color: purple;
+            font-size: 18px;
+        }
+        .special > article > p {
+            background-color: rgb(160, 117, 179);
+            color: rgb(243, 167, 25);
+            font-size: 22px;
+        }
+        /* Descendant Selector */
+div p {
+            background-color: rgb(117, 179, 160);
+            color: rgb(25, 243, 90);
+            font-size: 15px;
+        }
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo Selector */
+        a:visited{
+            background-color: rgb(243, 167, 25);
+            color: rgb(25, 218, 41);
+        }
+        a:active{
+            background-color: rgb(199, 44, 17);
+            color: rgb(243, 167, 25);
+        }
+        a:hover{
+            background-color: rgb(25, 189, 218);
+            color: rgb(199, 44, 17);
+        }
+        /* pseudo-element Selector */
+        div::before {
+            content: "Start- ";
+            font-weight: ;
+        }
+    </style>
+</head>
+<body>
+    <div>Today we learn about element selector and class selector</div>
+    <div class="special">hello world</div>
+    <div id="unique">This is a unique element</div>
+    <div class="special">
+        <article>
+            <p>This is a child paragraph inside an article</p>
+        </article>
+        <p>This is a child paragraph</p>
+    </div>
+    <a href="https://www.google.com">go to google</a>
+</body>
+</html>
